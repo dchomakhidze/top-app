@@ -8,18 +8,12 @@ import { API } from '../helpers/api';
 
 function Page({ menu }: HomeProps): JSX.Element {
 
-    const [counter, setCounter] = useState<number>(0);
-
     const [rating, setRating] = useState<number>(4)
-
-    useEffect(() => {
-        console.log('Counter' + counter)
-    });
-
+    
     return (
         <>
-            <Htag tag="h1">{counter}</Htag>
-            <Button appearance='primary' arrow='down' onClick={() => setCounter(x => x + 1)}>Кнопка</Button>
+            <Htag tag="h1">Заголовок</Htag>
+            <Button appearance='primary' arrow='down'>Кнопка</Button>
             <Button appearance='ghost'>Кнопка</Button>
             <Button appearance='ghost' arrow='down'>Кнопка</Button>
             <Paragraph size='s'>Some text</Paragraph>
