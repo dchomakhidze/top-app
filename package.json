@@ -1,0 +1,45 @@
+{
+  "name": "top-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "stylelint": "stylelint \"**/*.css\"--fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "axios": "^1.5.0",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.30.0",
+    "eslint-config-next": "13.4.19",
+    "framer-motion": "^10.16.4",
+    "next": "^13.4.19",
+    "postcss": "8.4.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.46.2",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/classnames": "^2.3.1",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-order-config-standard": "^0.1.3"
+  }
+}

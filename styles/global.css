@@ -1,0 +1,35 @@
+/* stylelint-disable indentation */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--black);
+    background: #F5F6F8;
+
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+    color:inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #F9F8FF;
+    --black: #3B434E;
+    --gray-light: #EBEBEB;
+    --white: white;
+    --primary: #7351f5;
+    --primary-hover: #4e26eb;
+    --red: #FC836D;
+    --red-light: #e7a195;
+    --green: #127a4f;
+    --green-light: #C8F8E4; 
+    --font-family:'Noto Sans', sans-serif;
+    --grey-dark: #787D85;
+}   
