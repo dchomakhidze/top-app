@@ -20,7 +20,7 @@ export default withLayout(Type);
 export const getStaticPaths: GetStaticPaths = async () => {
     return {
         paths: firstLevelMenu.map(m => '/' + m.route), // мы получили меню и разложили его в плоский массив урлов (иначе бы у нас получился массив массивов) из этого мы забрали только alias прибавили к нему courses и получили список урлов по которым ему нужно будет пройись
-        fallback: true
+        fallback: false
     };
 };
 
