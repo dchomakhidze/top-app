@@ -173,10 +173,10 @@
 	padding: 30px;
 }
 
-/* .reviews {
+.reviews {
     overflow: hidden;
     padding: 30px;
-} */
+}
 
 @media screen and (width <= 1320px) {
 	.product {
