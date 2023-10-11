@@ -3,6 +3,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+
     color: var(--black);
     background: #F5F6F8;
 
@@ -24,11 +25,11 @@ a {
     --black: #3B434E;
     --gray-light: #EBEBEB;
     --white: white;
-    --primary: #7351f5;
-    --primary-hover: #4e26eb;
+    --primary: #7351F5;
+    --primary-hover: #4E26EB;
     --red: #FC836D;
-    --red-light: #e7a195;
-    --green: #127a4f;
+    --red-light: #E7A195;
+    --green: #127A4F;
     --green-light: #C8F8E4; 
     --font-family:'Noto Sans', sans-serif;
     --grey-dark: #787D85;

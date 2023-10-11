@@ -36,7 +36,6 @@
     "@typescript-eslint/parser": "^6.4.0",
     "eslint": "^8.47.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.3",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-order": "^6.0.3",
