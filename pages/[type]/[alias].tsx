@@ -16,14 +16,14 @@ import Head from 'next/head'
 function TopPage({ firstCategory, page, products }: TopPageProps): JSX.Element {
     return (
         <>
-            <Head>
+            {page && products && <><Head>
                 <title>{page.metaTitle}</title>
                 <meta name='description' content={page.metaDescription}></meta>
                 <meta property='og:title' content={page.metaTitle}></meta>
                 <meta property='og:description' content={page.metaDescription}></meta>
                 <meta property='og:type' content='article'></meta>
             </Head>
-            <TopPageComponent firstCategory={firstCategory} page={page} products={products} />
+                <TopPageComponent firstCategory={firstCategory} page={page} products={products} /></>}
         </>
     )
 };
@@ -41,7 +41,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
     return {
         paths, // мы получили меню и разложили его в плоский массив урлов (иначе бы у нас получился массив массивов) из этого мы забрали только alias прибавили к нему courses и получили список урлов по которым ему нужно будет пройись
-        fallback: true
+        fallback: false
     };
 };
 
